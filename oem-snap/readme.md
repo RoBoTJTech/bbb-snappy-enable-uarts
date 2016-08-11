@@ -14,7 +14,7 @@ substitute the path to the drive e.g. /dev/sdd or /dev/mmcblk0 (not the
 path of a partition e.g. /dev/sdd1 or /dev/mmcblk0p1) in place of <drive>
 
 #If you wish to create your own u-boot.img and MLO
-*First install the needed tools:
+*First install the needed tools:*
 
 sudo apt-get install -y git build-essential make gcc-arm-linux-gnueabihf
 
