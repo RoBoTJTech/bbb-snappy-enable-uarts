@@ -13,6 +13,32 @@ sync
 substitute the path to the drive e.g. /dev/sdd or /dev/mmcblk0 (not the
 path of a partition e.g. /dev/sdd1 or /dev/mmcblk0p1) in place of <drive>
 
+#If you wish to create your own u-boot.img and MLO
+First install the needed tools:
+
+sudo apt-get install -y git build-essential make gcc-arm-linux-gnueabihf
+
+Then download the latest u-boot source tree: 
+
+git clone git://git.denx.de/u-boot.git
+
+Then change to the u-boot dir:
+
+cd u-boon
+
+Then build the .config file:
+
+make CROSS_COMPILE=arm-linux-gnueabihf- omap3_beagle_defconfig
+
+Then compile the the source:
+
+make CROSS_COMPILE=arm-linux-gnueabihf
+
+You now have a new u-boot.img and MLO file. Copy those files to the build-source dir and builder your oem snap.
+
+
+installed the needed tools to compile by running: 
+
 Everything you need to enable additional serial ports on snappy on the Beagle Bone Black
 
 For more information on this watch my videos. Part one starts here https://www.youtube.com/watch?v=zPANtXA5634 Part one explains how the dtb files work in Debian Part two explains how you use them in Snappy Core Part three and others will explain how to build custom snappy-core images that include everything you want.
