@@ -1,0 +1,29 @@
+name: robotjtech_beagle_snappy
+vendor: RoBoT J Tech <projects@robotjtech.com>
+icon: meta/beagle.png
+version: 0.1
+type: oem
+
+config:
+  ubuntu-core:
+    hostname: robotjtech-beagle 
+    services:
+        - name: ssh
+          enabled: true
+
+oem:
+  branding:
+    name: RoBoT J Tech  
+    logo: meta/beagle.png
+        
+  hardware:
+    platform: am335x-boneblack 
+    architecture: armhf
+    dtb: am335x-boneblack-serial.dtb
+    partition-layout: system-AB
+    bootloader: u-boot
+    boot-assets:
+      files:
+        - path: uEnv.txt
+        - path: MLO
+        - path: u-boot.img
