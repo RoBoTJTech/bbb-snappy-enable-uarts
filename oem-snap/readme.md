@@ -14,30 +14,29 @@ substitute the path to the drive e.g. /dev/sdd or /dev/mmcblk0 (not the
 path of a partition e.g. /dev/sdd1 or /dev/mmcblk0p1) in place of <drive>
 
 #If you wish to create your own u-boot.img and MLO
-First install the needed tools:
+*First install the needed tools:
 
 sudo apt-get install -y git build-essential make gcc-arm-linux-gnueabihf
 
-Then download the latest u-boot source tree: 
+*Then download the latest u-boot source tree: 
 
 git clone git://git.denx.de/u-boot.git
 
-Then change to the u-boot dir:
+*Then change to the u-boot dir:
 
-cd u-boon
+cd u-boot
 
-Then build the .config file:
+*Then build the .config file:
 
 make CROSS_COMPILE=arm-linux-gnueabihf- omap3_beagle_defconfig
 
-Then compile the the source:
+*Then compile the the source:
 
 make CROSS_COMPILE=arm-linux-gnueabihf
 
-You now have a new u-boot.img and MLO file. Copy those files to the build-source dir and builder your oem snap.
+*You now have a new u-boot.img and MLO file. Copy those files to the oem build-source dir and builder your oem snap.
 
 
-installed the needed tools to compile by running: 
 
 Everything you need to enable additional serial ports on snappy on the Beagle Bone Black
 
