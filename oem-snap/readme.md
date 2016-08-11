@@ -8,12 +8,12 @@ sudo ubuntu-device-flash core 15.04 -o my-snappy.img --channel edge --oem robotj
 
 *Then burn to your sdcard with:*
 
-sudo dd if=my-snappy.img bs=4k of=<drive>
+sudo dd if=my-snappy.img bs=4k of=DRIVE
 
 
 **NOTE:**
 substitute the path to the drive e.g. /dev/sdd or /dev/mmcblk0 (not the
-path of a partition e.g. /dev/sdd1 or /dev/mmcblk0p1) in place of <drive>
+path of a partition e.g. /dev/sdd1 or /dev/mmcblk0p1) in place of DRIVE
 
 #If you wish to create your own u-boot.img and MLO
 *First install the needed tools:*
