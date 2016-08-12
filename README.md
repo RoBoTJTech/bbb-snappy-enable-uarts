@@ -13,3 +13,7 @@ Part three and others will explain how to build custom snappy-core images that i
 #http://www.thejohnnyoshow.com
 #http://facebook.com/thejohnnyoshow
 #http://youtube.com/thejohnnyoshow
+
+Hope you found this useful
+
+John Orjias
