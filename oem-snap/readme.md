@@ -34,7 +34,7 @@ make CROSS_COMPILE=arm-linux-gnueabihf- omap3_beagle_defconfig
 
 *Then compile the the source:*
 
-make CROSS_COMPILE=arm-linux-gnueabihf
+make CROSS_COMPILE=arm-linux-gnueabihf-
 
 *You now have a new u-boot.img and MLO file. Copy those files to the oem build-source dir and build your oem snap.*
 
