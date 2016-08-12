@@ -12,3 +12,7 @@ bootloaders. See https://github.com/robotjtech/
 #http://www.twitter.com/thejohnnyoshow
 
 Beagle logo licensed under CC BY-SA.
+
+Hope you found this useful
+
+John Orjias
