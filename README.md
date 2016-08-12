@@ -1,5 +1,5 @@
 # bbb-snappy-enable-uarts
-Everything you need to enable additional serial ports on snappy on the Beagle Bone Black
+Everything you need to enable additional serial ports on snappy on the BeagleBone Black
 
 For more information on this watch my videos. Part one starts here
 https://www.youtube.com/watch?v=zPANtXA5634
