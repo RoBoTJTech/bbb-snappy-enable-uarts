@@ -6,7 +6,7 @@ You can use this pre-built oem snap to build a BeagleBone Black Snappy Core Imag
 
 sudo ubuntu-device-flash core 15.04 -o my-snappy.img --channel edge --oem robotjtech-bbb-oem.snap --enable-ssh --developer-mode
 
-*Then burn to your sdcard with:*
+*Then write to your sdcard with:*
 
 sudo dd if=my-snappy.img bs=4k of=DRIVE
 
