@@ -1,4 +1,4 @@
-#Snappy Core OEM Package for BeagleBoard 
+#Snappy Core OEM Package for BeagleBone Black
 uarts 0,1,2 and 4 enabled
 ===============================================
 This package sets up some defaults, branding, and takes care of installing
