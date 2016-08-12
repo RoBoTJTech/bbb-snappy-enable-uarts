@@ -1,6 +1,6 @@
 #Source to build your own oem snap for BBB
 
-Everything you need to enable additional serial ports on snappy on the Beagle Bone Black
+Everything you need to enable additional serial ports on snappy on the BeagleBone Black
 
 For more information on this watch my videos. Part one starts here https://www.youtube.com/watch?v=zPANtXA5634 Part one explains how the dtb files work in Debian Part two explains how you use them in Snappy Core Part three and others will explain how to build custom snappy-core images that include everything you want.
 
