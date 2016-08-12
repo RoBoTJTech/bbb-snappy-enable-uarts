@@ -1,6 +1,6 @@
 #robotjtech-bbb-oem.snap
 
-You can use this pre-built oem snap to build a Beagle Boone Black Snappy Core Image that has uarts 0,1,2 and 4 enabled
+You can use this pre-built oem snap to build a BeagleBone Black Snappy Core Image that has uarts 0,1,2 and 4 enabled
 
 *To build the image run:*
 
@@ -40,7 +40,7 @@ make CROSS_COMPILE=arm-linux-gnueabihf-
 
 
 
-Everything you need to enable additional serial ports on snappy on the Beagle Bone Black
+Everything you need to enable additional serial ports on snappy on the BeagleBone Black
 
 For more information on this watch my videos. Part one starts here https://www.youtube.com/watch?v=zPANtXA5634 Part one explains how the dtb files work in Debian Part two explains how you use them in Snappy Core Part three and others will explain how to build custom snappy-core images that include everything you want.
 
