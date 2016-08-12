@@ -10,6 +10,10 @@ sudo ubuntu-device-flash core 15.04 -o my-snappy.img --channel edge --oem robotj
 
 sudo dd if=my-snappy.img bs=4k of=DRIVE
 
+Now you can ssh into your BeagleBone Black
+
+The username is "ubuntu" and the password is "ubuntu"
+
 
 **NOTE:**
 substitute the path to the drive e.g. /dev/sdd or /dev/mmcblk0 (not the
