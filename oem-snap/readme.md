@@ -1,3 +1,5 @@
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AT4WKARDKGLTG)
+
 #robotjtech-bbb-oem.snap
 
 You can use this pre-built oem snap to build a BeagleBone Black Snappy Core Image that has uarts 0,1,2 and 4 enabled
