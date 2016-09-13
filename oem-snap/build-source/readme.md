@@ -1,3 +1,5 @@
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AT4WKARDKGLTG)
+
 #Source to build your own oem snap for BBB
 
 Everything you need to enable additional serial ports on snappy on the BeagleBone Black
