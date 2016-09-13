@@ -1,4 +1,4 @@
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=69GN6CT65DY7Y)
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AT4WKARDKGLTG)
 
 # bbb-snappy-enable-uarts
 Everything you need to enable additional serial ports on snappy on the BeagleBone Black
